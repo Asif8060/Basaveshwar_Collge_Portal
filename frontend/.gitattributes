@@ -1,0 +1,19 @@
+# Handle line endings consistently across platforms
+*.js      text eol=lf
+*.json    text eol=lf
+*.ts      text eol=lf
+*.html    text eol=lf
+
+# Treat all image files as binary (no line-ending conversions)
+*.jpg     binary
+*.png     binary
+*.gif     binary
+
+# Automatically merge lock files by concatenating them
+*.lock    merge=union
+
+# Ignore documentation files in git archive
+*.md      export-ignore
+
+# Ignore IDE specific files (for example, Visual Studio Code)
+.vscode/*  export-ignore

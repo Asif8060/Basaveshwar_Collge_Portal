@@ -1,0 +1,89 @@
+{
+    "college_name": "Basaveshwar Engineering College (BEC)",
+    "location": "Bagalkot, Karnataka, India",
+    "established": 1963,
+    "affiliation": "Visvesvaraya Technological University (VTU)",
+    "autonomous_status": "Since 2007, granted by VTU and UGC",
+    "campus_details": {
+      "size": "91 acres",
+      "facilities": [
+        "WiFi-enabled campus with 1 Gbps Internet Leased Line",
+        "5-acre playground",
+        "Indoor stadium",
+        "Library with RFID secured system and 1.40 lakh volumes"
+      ]
+    },
+    "departments": {
+      "undergraduate": [
+        "Artificial Intelligence & Machine Learning",
+        "Automobile Engineering",
+        "Biotechnology",
+        "Civil Engineering",
+        "Computer Science & Engineering",
+        "Electronics & Communication Engineering",
+        "Electrical & Electronics Engineering",
+        "Electronics & Computer Engineering",
+        "Industrial & Production Engineering",
+        "Information Science & Engineering",
+        "Mechanical Engineering",
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Humanities"
+      ],
+      "postgraduate": [
+        "Environmental Engineering",
+        "Geo-Technical Engineering",
+        "Structural Engineering",
+        "Machine Design",
+        "Master of Computer Applications (MCA)",
+        "Master of Business Administration (MBA)"
+      ]
+    },
+    "research_centers": "Several departments recognized as Research and QIP Centers",
+    "placement": {
+      "training_and_placement_cell": "Facilitates recruitment events, internships, and career fairs",
+      "process": [
+        "Pre-placement talks",
+        "Written tests",
+        "Group discussions",
+        "Interviews"
+      ]
+    },
+    "notable_features": [
+      "NIRF ranking within the top 200",
+      "NBA accreditation for undergraduate courses",
+      "Recognized as an Incubation Centre by IT-BT, GoK",
+      "AICTE IDEA lab worth Rs. 1.10 crores"
+    ],
+    "technological_resources": [
+      "1500 computers",
+      "State-of-the-art laboratories with TEQIP sponsorship",
+      "Specialized industry-associated labs (e.g., Bosch Rexroth Centre)"
+    ],
+    "contact_details": {
+      "address": "S. Nijalingappa Road, Vidyagiri, Bagalkote-587102, Karnataka, India",
+      "phone": ["08354-234060", "08354-234204"],
+      "fax": "08354-234204",
+      "email": "principal@becbgk.edu",
+      "specific_contacts": {
+        "placement": {
+          "contact_person": "Dr. Shankar Kambalimath",
+          "email": "becplacement@gmail.com",
+          "mobile": "8904095779"
+        },
+        "internship": {
+          "contact_person": "Dr. C. L. Chayalakshmi",
+          "mobile": "9902678858"
+        },
+        "parents": {
+          "contact_person": "Dr. Santosh B. Kumbalavati",
+          "mobile": "9986339066"
+        },
+        "students": {
+          "contact_person": "Prof. Brijmohan A. Vyas",
+          "mobile": "9743391794"
+        }
+      }
+    }
+  }
