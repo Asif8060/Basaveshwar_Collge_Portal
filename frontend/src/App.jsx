@@ -8,7 +8,9 @@ import { useAuth } from './contexts/AuthContext';
 import Home from './pages/Home';
 
 function App() {
+  
   const { isAuthenticated } = useAuth();
+
   return (
     <BrowserRouter>
       <Routes>

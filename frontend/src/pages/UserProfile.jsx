@@ -9,22 +9,22 @@ const UserProfile = () => {
     await logout();
   }
   return (
-    <Card className='w-[180px] h-[88px] hover:overflow-visible overflow-hidden bg-transparent border-none'>
+    <Card className='md:w-[450px] md:mr-[-80px] m-0 w-[100px] h-[80px] hover:overflow-visible overflow-hidden bg-transparent border-hidden'>
       <Flex vertical gap='small' className='flex flex-col items-center justify-center'>
-          <div className='flex items-center gap-4'>
+          <div className='md:flex md:items-center md:gap-4 hidden cursor-pointer'>
             <Avatar size={50} icon={<UserOutlined />} />
             <Typography.Title
               level={4}
               strong 
-              className='username'
+              className='text-white'
             >
               {userData.name}
               </Typography.Title>
           </div>
-          <Typography.Text type='secondary' className='text-center'>
+          <Typography.Text type='secondary' className='text-center md:visible hidden'>
             Email: {userData.email}
           </Typography.Text>
-        <Button size='large' type='primary' className='profile-btn' onClick={handleLogout}>Logout</Button>
+        <Button size='large' type='primary' className='' onClick={handleLogout}>Logout</Button>
       </Flex>
     </Card>
   )
