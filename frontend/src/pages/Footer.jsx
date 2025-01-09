@@ -2,6 +2,7 @@ import React from 'react'
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -12,8 +13,8 @@ const Footer = () => {
         </div>
         <div>
             <h2 className='text-[20px] font-bold border-b-2 border-cyan-500 mr-36 mb-4'>INFORMATION ABOUT</h2>
-            <ul className='list-disc'>
-                <li className='cursor-pointer hover:text-blue-500 text-[17px]'>B. V. V. Sangha</li>
+            <ul className='list-disc'> 
+                <Link to="https://www.becbgk.edu/about_Sangha.php"><li className='cursor-pointer hover:text-blue-500 text-[17px]'>B. V. V. Sangha</li></Link>
                 <li  className='cursor-pointer hover:text-blue-500 text-[17px]'>Infrastructure</li>
                 <li  className='cursor-pointer hover:text-blue-500 text-[17px]'>Faculty</li>
                 <li  className='cursor-pointer hover:text-blue-500 text-[17px]'>Library</li>
