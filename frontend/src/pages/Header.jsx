@@ -43,7 +43,7 @@ const Header = () => {
         },
       ];
   return (
-    <div className="fixed text-white w-full flex justify-between items-center bg-cyan-600 px-12 font-bold">
+    <div className="fixed text-white w-full flex justify-between items-center bg-cyan-600 px-12 font-bold z-50">
       {/* Logo */}
       <Link to={"/"} className='z-50'>
         <img src="/logo.png" alt="Logo" className="w-[60px] rounded-xl" />
