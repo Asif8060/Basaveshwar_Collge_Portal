@@ -10,7 +10,7 @@ const BotpressChat = () => {
 
     // Load Botpress bot configuration
     const botScript = document.createElement("script");
-    botScript.src = "https://files.bpcontent.cloud/2025/01/07/07/20250107071839-WG2IAE1X.js";
+    botScript.src = "https://files.bpcontent.cloud/2025/01/09/11/20250109111655-SERLKY98.js";
     botScript.async = true;
     document.body.appendChild(botScript);
 
